@@ -1,0 +1,104 @@
+.resume-details {
+  display: grid;
+  gap: 70px;
+  padding: 100px 0;
+}
+
+.resume-panel {
+  border-top: 1px solid #363636;
+  padding-top: 28px;
+  scroll-margin-top: 90px;
+}
+
+.resume-panel h2 {
+  color: var(--accentColor);
+  font-size: 42px;
+  font-weight: 400;
+  margin: 0 0 35px;
+}
+
+.resume-entry,
+.achievement-grid {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 30px;
+  border-bottom: 1px solid #252225;
+  padding: 22px 0;
+}
+
+.resume-entry h3,
+.achievement-grid h3,
+.skill-group h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 0 8px;
+}
+
+.resume-entry p,
+.achievement-grid p {
+  color: #adacac;
+  font-weight: 300;
+  margin: 5px 0;
+}
+
+.resume-entry strong {
+  color: var(--accentColor);
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.skill-groups {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px 50px;
+}
+
+.skill-group {
+  border-bottom: 1px solid #252225;
+  padding-bottom: 20px;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.skill-tags span {
+  border: 1px solid #ffffff50;
+  border-radius: 30px;
+  background: #ffffff15;
+  font-size: 13px;
+  padding: 3px 9px;
+}
+
+.achievement-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media only screen and (max-width: 900px) {
+  .resume-details {
+    gap: 45px;
+    padding: 70px 0;
+  }
+
+  .resume-panel h2 {
+    font-size: 34px;
+  }
+
+  .skill-groups,
+  .achievement-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .resume-entry {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .resume-entry strong {
+    white-space: normal;
+  }
+}

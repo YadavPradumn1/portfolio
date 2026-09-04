@@ -6,9 +6,14 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-          dolores numquam iusto Ratione earum ducimus autem id iure pariatur
-          dolorum quae maiores.
+        Full Stack Developer with hands-on experience building scalable web
+        applications using React.js, Node.js, and Spring Boot. Skilled in
+        RESTful API design, secure authentication using JWT and Spring
+        Security, and integrating AI capabilities such as the Google Gemini
+        API into production features. Strong foundation in Java and DSA,
+        with experience working across MongoDB, SQL, Tailwind CSS, Vite, and
+        modern frontend development. Comfortable collaborating in agile,
+        team-based development environments.
         </p>
       </div>
     </div>

@@ -131,7 +131,7 @@ const TechStack = () => {
     const handleScroll = () => {
       const scrollY = window.scrollY || document.documentElement.scrollTop;
       const threshold = document
-        .getElementById("work")!
+        .getElementById("projects")!
         .getBoundingClientRect().top;
       setIsActive(scrollY > threshold);
     };

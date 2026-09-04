@@ -47,27 +47,45 @@ const Work = () => {
   };
 }, []);
   return (
-    <div className="work-section" id="work">
+    <div className="work-section" id="projects">
       <div className="work-container section-container">
         <h2>
           My <span>Work</span>
         </h2>
         <div className="work-flex">
-          {[...Array(6)].map((_value, index) => (
+          {[
+            {
+              name: "Chat App",
+              category: "Real-time messaging application",
+              description:
+                "Built a real-time chat application enabling instant messaging between users with a responsive, modern interface. Implemented core messaging functionality with efficient state management and smooth real-time updates. Deployed the application on Vercel, ensuring fast load times and reliable availability.",
+              tools: "Deployed on Vercel",
+              image: "/images/placeholder.webp",
+            },
+            {
+              name: "Text-to-Image Generator",
+              category: "AI application",
+              description:
+                "Developed an AI-powered web app that generates images from natural language text prompts. Integrated a text-to-image AI API and built a clean, responsive UI for prompt input and image display. Deployed the application on Vercel for fast, publicly accessible use.",
+              tools: "Text-to-image AI API; deployed on Vercel",
+              image: "/images/placeholder.webp",
+            },
+          ].map((project, index) => (
             <div className="work-box" key={index}>
               <div className="work-info">
                 <div className="work-title">
                   <h3>0{index + 1}</h3>
 
                   <div>
-                    <h4>Project Name</h4>
-                    <p>Category</p>
+                    <h4>{project.name}</h4>
+                    <p>{project.category}</p>
                   </div>
                 </div>
                 <h4>Tools and features</h4>
-                <p>Javascript, TypeScript, React, Threejs</p>
+                <p>{project.description}</p>
+                <p>{project.tools}</p>
               </div>
-              <WorkImage image="/images/placeholder.webp" alt="" />
+              <WorkImage image={project.image} alt={`${project.name} preview`} />
             </div>
           ))}
         </div>

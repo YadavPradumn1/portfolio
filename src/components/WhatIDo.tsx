@@ -87,24 +87,26 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>DEVELOP</h3>
+              <h3>BUILD</h3>
               <h4>Description</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae.
+                I develop responsive full-stack products, from polished React
+                interfaces to secure REST APIs and database-backed services.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
+                <div className="what-tags">Java</div>
                 <div className="what-tags">JavaScript</div>
-                <div className="what-tags">TypeScript</div>
-                <div className="what-tags">Three.js</div>
-                <div className="what-tags">React</div>
-                <div className="what-tags">Css</div>
-                <div className="what-tags">Node.js</div>
+                <div className="what-tags">React.js</div>
                 <div className="what-tags">Next.js</div>
+                <div className="what-tags">Tailwind CSS</div>
+                <div className="what-tags">Node.js</div>
                 <div className="what-tags">Express.js</div>
-                <div className="what-tags">PHP</div>
-                <div className="what-tags">MySql</div>
+                <div className="what-tags">Spring Boot</div>
+                <div className="what-tags">MongoDB</div>
+                <div className="what-tags">SQL</div>
+                <div className="what-tags">MUI</div>
+                <div className="what-tags">Python</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -128,22 +130,25 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>DESIGN</h3>
+              <h3>INNOVATE</h3>
               <h4>Description</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae
+                I turn ideas into useful product experiences with rapid
+                prototyping, AI integrations, and a focus on performance,
+                accessibility, and maintainable code.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Blender</div>
-                <div className="what-tags">Zbrush</div>
-                <div className="what-tags">UI Design</div>
-                <div className="what-tags">Motion</div>
-                <div className="what-tags">Rigging</div>
-                <div className="what-tags">3D Animation</div>
-                <div className="what-tags">Character Design</div>
-                <div className="what-tags">Modelling</div>
+                <div className="what-tags">Google Gemini API</div>
+                <div className="what-tags">REST APIs</div>
+                <div className="what-tags">JWT</div>
+                <div className="what-tags">Spring Security</div>
+                <div className="what-tags">Hibernate</div>
+                <div className="what-tags">Vite</div>
+                <div className="what-tags">Jest</div>
+                <div className="what-tags">Git</div>
+                <div className="what-tags">Postman</div>
+                <div className="what-tags">Agile</div>
               </div>
               <div className="what-arrow"></div>
             </div>
